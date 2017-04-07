@@ -35,5 +35,6 @@ RUN apk -U add curl git make gcc g++ python linux-headers paxctl libgcc libstdc+
     /usr/lib/node_modules/npm/man \
     /usr/lib/node_modules/npm/doc \
     /usr/lib/node_modules/npm/html \
-    /usr/share/man \
- && npm install gulp -g
+    /usr/share/man
+
+RUN npm install gulp -g
